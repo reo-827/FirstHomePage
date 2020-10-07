@@ -1,0 +1,225 @@
+@charset "utf-8";
+body{
+  font-family: "Noto Sans JP", Arial, Verdana, 游ゴシック, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
+  font-size: 14px;
+  line-height: 1.9;
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  margin: 0;
+}
+
+.container{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.side{
+  margin: 0;
+  padding: 0;
+  width: 12%;
+  position: fixed;
+  top: 0%;
+  right: 4%;
+  background: #000;
+}
+
+h1{
+  padding: 30px 0;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+li{
+  padding: 10px 0;
+}
+
+a{
+  text-decoration: none;
+  font-family:  'Modern Antiqua', 'Noto Sans JP',serif;
+  color: #fff;
+}
+
+a:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#submenu{
+  margin-top: 50px;
+}
+
+#submenu li{
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.main{
+  width: 80%;
+}
+
+.top img{
+  width: 100%;
+}
+
+header h1{
+  width: 60%;
+  font-size: 22px;
+  font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
+  text-align: center;
+  margin: 70px auto;
+}
+
+.h1{
+  padding-bottom: 20px;
+  border-bottom: 3px solid #fff;
+}
+
+.message{
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+
+#sec02 ul li{
+  padding: 0;
+  width: calc(100%/3);
+  float: left;
+}
+
+#sec02 ul li img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#sec02 ul .li07{
+  width: 100%;
+}
+
+#sec02 header h1{
+  display: none;
+}
+
+.logo{
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #fff;
+}
+
+#sec03 ul{
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+#sec03 ul li{
+  display: inline-block;
+  width: 18%;
+  padding: 0 3%;
+}
+
+.project{
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #fff;
+}
+
+.project1{
+  padding-bottom: 50px;
+}
+
+#photo14{
+  float: left;
+  margin: 5px 20px 20px;
+}
+
+.sample1{
+  margin:0 0 20px;
+  line-height: 1.9;
+}
+
+.sample2{
+  margin: 0 0 20px;
+  line-height: 1.9;
+}
+
+.project2{
+  padding-bottom: 50px;
+}
+
+#photo15{
+  float: left;
+  margin: 5px 20px 20px;
+}
+
+.sample3{
+  margin: 0 0 20px;
+}
+
+.sample4{
+  margin: 0 0 20px;
+}
+
+.clearfix:after{
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.company{
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.company ul{
+  list-style: none;
+  margin: 0;
+}
+
+.company ul li{
+  display: inline-block;
+  margin: 20px 0;
+}
+
+.place{
+  width: 35%;
+  padding: 0;
+  padding-right: 4%;
+}
+
+.place p{
+  margin-bottom: 5px;
+}
+
+.map{
+  width: 60%;
+}
+
+#map{
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+}
+
+iframe{
+  height: 200px;
+  width: 100%;
+}
+
+footer{
+  padding: 30px 10px 70px 0;
+  text-align: center;
+  font-size: 12px;
+}
+
+footer a{
+  color: #0066ff;
+  
+}
